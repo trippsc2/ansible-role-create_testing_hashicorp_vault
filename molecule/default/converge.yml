@@ -1,0 +1,6 @@
+---
+- name: Converge
+  hosts:
+    - subjects
+  roles:
+    - role: trippsc2.create_testing_hashicorp_vault
