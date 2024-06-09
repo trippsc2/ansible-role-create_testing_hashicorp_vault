@@ -19,12 +19,3 @@
     state: present
     update_cache: true
     filename: hashicorp
-
-- name: Install firewalld
-  when:
-    - vault_configure_firewalld
-  become: true
-  ansible.builtin.package:
-    name:
-      - firewalld
-    state: present
