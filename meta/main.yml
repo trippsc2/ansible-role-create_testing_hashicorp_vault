@@ -3,10 +3,10 @@ galaxy_info:
   author: Jim Tarpley
   namespace: trippsc2
   role_name: create_testing_hashicorp_vault
-  description: This role configures Hashicorp Vault in development mode for use in Molecule testing.
+  description: 'DEPRECATED: Use trippsc2.hashi_vault.testing instead.'
   license: MIT
 
-  min_ansible_version: '2.11'
+  min_ansible_version: '2.14'
 
   platforms:
   - name: Debian
